@@ -28,7 +28,7 @@ public class SelectingDayOfTheWeek {
                 break;
 
             default:
-                throw new IllegalArgumentException("Invalid name of product" + day);
+                throw new IllegalArgumentException("Invalid name of day" + day);
         }
     }
 }
